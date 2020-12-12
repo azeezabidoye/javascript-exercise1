@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Asynchronous JavaScript</title>
+</head>
+<body>
+    <h1>Asynchronous JavaScript</h1>
+    <p>This will help you understand asynchronous JS very well. <br>Click the button below to print the page</p>
+
+    <!-- DOCUMENT PRINT-BUTTON -->
+    <button type="button" id="print-window">Click to Print Window</button>
+
+    <!--MULTIPLICATION AND DIVISION CALCULATOR-->
+
+    <form style="width: 100px; height: auto;">
+        1st number: <input id="first-number" type="text"><br>
+        2nd number: <input id="second-number" type="text"><br>
+
+        <input type="button" id="multiply" onclick="multiplyBy()" value="Multiply">
+        <input type="button" id="divide" onclick="divideBy()" value="Divide">
+    </form>
+
+    <p>The Result is <span id="result"></span></p>
+
+    <!------------------------------------------------>
+
+        Start date here<input type="date" id="startDate"> <br>
+        End date here<input type="date" id="endDate"> <br>
+        <button type="submit" id="submitDate">save date</button>
+        <p>You have <span id="dateResult">&nbsp;</span> days left </p>
+
+   
+
+    <script src="script.js"></script>
+    <script src="exercise.js"></script>
+</body>
+</html>
